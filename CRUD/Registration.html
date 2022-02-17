@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Înregistrare</title>
+    <style>
+        body {
+            font-family: Fjalla One;
+        }
+
+        input {
+            border-radius: 20px;
+            font-family: Fjalla One;
+            background-color: FCCDC9;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Pagina de înregistrare</h1>
+        <form action="Registration.php" method="post" autocomplete="off">
+            <label for="username">
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="username" placeholder="Username" id="username" required>
+            <label for="password">
+                <i class="fas fa-lock"></i>
+            </label>
+            <input type="password" name="password" placeholder="Parola" id="password" required>
+            <label for="email">
+                <i class="fas fa-envelope"></i>
+            </label>
+            <input type="email" name="email" placeholder="Email" id="email" required>
+            <input type="submit" value="Înregistrare">
+        </form>
+    </div>
+</body>
+
+</html>
